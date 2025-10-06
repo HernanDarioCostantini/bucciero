@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://hernandariocostantini.github.io/bucciero/",
+  "homepage": "https://github.com/HernanDarioCostantini/bucciero/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
