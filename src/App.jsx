@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
 import angel from './assets/angel.jpg'
 import diego from './assets/diego.jpg'
+import jose from './assets/jose.jpg'
+
 
 // Configuración de tu proyecto Supabase
 const supabaseUrl = "https://yuahbeebbgtyartjdrtd.supabase.co"
@@ -80,8 +82,16 @@ function App() {
           <img src={diego} alt="Peugeot Logo" style={{ width: '120px' }} /> 
           <p>Responsable Mantenimiento</p> 
         </div>
+
+          <div>
+          <img src={jose} alt="Peugeot Logo" style={{ width: '140px' }} /> 
+          <p>Responsable Produccion</p> 
+        </div>
+
+        
         
       </div>
+
     </div>
   )
 }
